@@ -28,6 +28,8 @@ senha varchar(16)
 
 create table Bicicleta(
 	Bicicleta_id int primary key not null auto_increment,
+    nomeArquivoImagem varchar(80) not null,
+    caminhoArquivo varchar(150) not null,
     nomeBicicleta varchar(150) not null,
     nomeLocador varchar(150) not null,
     valor float(0.2),
